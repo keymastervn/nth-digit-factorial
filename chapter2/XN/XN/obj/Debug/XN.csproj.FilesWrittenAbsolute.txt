@@ -1,0 +1,8 @@
+/Users/keymaster/go/src/nth-digit-factorial/chapter2/XN/XN/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/keymaster/go/src/nth-digit-factorial/chapter2/XN/XN/obj/Debug/XN.Form1.resources
+/Users/keymaster/go/src/nth-digit-factorial/chapter2/XN/XN/obj/Debug/XN.Properties.Resources.resources
+/Users/keymaster/go/src/nth-digit-factorial/chapter2/XN/XN/bin/Debug/XN.exe.config
+/Users/keymaster/go/src/nth-digit-factorial/chapter2/XN/XN/bin/Debug/XN.exe.mdb
+/Users/keymaster/go/src/nth-digit-factorial/chapter2/XN/XN/bin/Debug/XN.exe
+/Users/keymaster/go/src/nth-digit-factorial/chapter2/XN/XN/obj/Debug/XN.exe
+/Users/keymaster/go/src/nth-digit-factorial/chapter2/XN/XN/obj/Debug/XN.exe.mdb
