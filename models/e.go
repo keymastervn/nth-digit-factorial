@@ -35,7 +35,7 @@ func NormalGenerate(n int64) {
 func XavierGenerate(n int64) {
 	var poop int64
 	poop = n + 9
-	var arrayN [90009]int64
+	var arrayN [9009]int64
 	var x int64 = 0
 	var i int64 = 2
 	arrayN[0] = 0
@@ -58,7 +58,11 @@ func XavierGenerate(n int64) {
 	}
 }
 
-func ExecuteE() {
-	// NormalGenerate(60)
-	XavierGenerate(90000)
+func ExecuteE(flag int) {
+	switch flag {
+	case 1:
+		NormalGenerate(60)
+	case 2:
+		XavierGenerate(9000)
+	}
 }

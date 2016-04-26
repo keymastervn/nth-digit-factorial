@@ -29,7 +29,7 @@ func LeibnizGenerate(n int) {
 			sign = !sign
 		}
 	}
-	fmt.Println("This is pi in Leibniz formula in 100000 try: ", pi)
+	fmt.Println("This is pi in Leibniz formula in 65355 try: ", pi)
 }
 
 func mulMod(a int64, b int64, m int64) int64 {
@@ -210,13 +210,17 @@ func BBP(n int64) {
 
 		sum = (sum + float64(s)/float64(av))
 		sum = sum - math.Floor(sum)
-		fmt.Println("sum:", sum)
+		// fmt.Println("sum:", sum)
 	}
 
 	fmt.Printf("This is %dth digit pi in BBP formula: %d \n", n, int64(sum*10)) // 9 decimal
 }
 
-func ExecutePi() {
-	// LeibnizGenerate(65355)
-	BBP(30)
+func ExecutePi(flag int) {
+	switch flag {
+	case 1:
+		LeibnizGenerate(65355)
+	case 2:
+		BBP(30)
+	}
 }
